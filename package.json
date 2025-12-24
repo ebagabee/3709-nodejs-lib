@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ebagabee/3709-nodejs-lib/issues"
   },
-  "homepage": "https://github.com/ebagabee/3709-nodejs-lib#readme"
+  "homepage": "https://github.com/ebagabee/3709-nodejs-lib#readme",
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
 }
