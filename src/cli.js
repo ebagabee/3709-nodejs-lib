@@ -1,6 +1,7 @@
 import fs from "fs";
 import { handleErrors } from "./errors/errorFunction.js";
 import { countWords } from "./index.js";
+import { mountOutputFile } from "./helpers.js";
 
 const filepath = process.argv;
 const link = filepath[2];
@@ -16,20 +17,9 @@ fs.readFile(link, "utf-8", (err, txt) => {
   }
 });
 
-// const createAndSaveFile = async (listWords, path) => {
-//   const newFile = `${path}/result.txt`;
-//   const content = JSON.stringify(listWords);
-//   try {
-//     await fs.promises.writeFile(newFile, content);
-//     console.log("File created!");
-//   } catch (error) {
-//     throw error;
-//   }
-// };
-
 const createAndSaveFile = (listWords, path) => {
   const newFile = `${path}/result.txt`;
-  const content = JSON.stringify(listWords);
+  const content = mountOutputFile(listWords);
 
   fs.promises
     .writeFile(newFile, content)
