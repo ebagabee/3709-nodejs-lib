@@ -16,13 +16,30 @@ fs.readFile(link, "utf-8", (err, txt) => {
   }
 });
 
-const createAndSaveFile = async (listWords, path) => {
+// const createAndSaveFile = async (listWords, path) => {
+//   const newFile = `${path}/result.txt`;
+//   const content = JSON.stringify(listWords);
+//   try {
+//     await fs.promises.writeFile(newFile, content);
+//     console.log("File created!");
+//   } catch (error) {
+//     throw error;
+//   }
+// };
+
+const createAndSaveFile = (listWords, path) => {
   const newFile = `${path}/result.txt`;
   const content = JSON.stringify(listWords);
-  try {
-    await fs.promises.writeFile(newFile, content);
-    console.log("File created!");
-  } catch (error) {
-    throw error;
-  }
+
+  fs.promises
+    .writeFile(newFile, content)
+    .then(() => {
+      console.log("File created!");
+    })
+    .catch((err) => {
+      throw err;
+    })
+    .finally(() => {
+      console.log("Finalized!");
+    });
 };
