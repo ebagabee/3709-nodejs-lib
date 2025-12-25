@@ -1,3 +1,20 @@
-Duplicate words in paragraph 3: uma 
-Duplicate words in paragraph 7: dispositivos, web, seu, conectado 
-Duplicate words in paragraph 8: cliente, uma, para 
+Duplicate words in paragraph 2: que, você, uma, nova, mercado, seja, com, para, sua, essa 
+Duplicate words in paragraph 4: torna 
+Duplicate words in paragraph 8: que 
+Duplicate words in paragraph 10: ansiedade, que, uma 
+Duplicate words in paragraph 12: com 
+Duplicate words in paragraph 14: que, qual, para 
+Duplicate words in paragraph 15: mundo 
+Duplicate words in paragraph 17: aprendizagem, estudo 
+Duplicate words in paragraph 19: que, dia 
+Duplicate words in paragraph 23: que 
+Duplicate words in paragraph 25: com 
+Duplicate words in paragraph 31: aprendizado, mais 
+Duplicate words in paragraph 32: com, contorno, branco, neon 
+Duplicate words in paragraph 34: que 
+Duplicate words in paragraph 38: torne 
+Duplicate words in paragraph 40: aprendizagem 
+Duplicate words in paragraph 44: vai, além 
+Duplicate words in paragraph 46: uma, que, seu, conteúdos, atualizados, para, com, acesso, sua, você 
+Duplicate words in paragraph 48: teoria, representa, aprendizado, que 
+Duplicate words in paragraph 50: uma, mundo 
